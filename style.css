@@ -1,0 +1,48 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 5rem;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 5fr 2fr;
+    grid-template-rows: 5fr 20fr 5fr;
+    gap: 15px;
+    height: 720px;
+}
+
+header {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: antiquewhite;
+}
+
+nav {
+    background-color: blue;
+    color: white;
+}
+
+.contents {
+    background-color: crimson;
+    color: white;
+}
+
+aside {
+    background-color: chocolate;
+    color: white;
+}
+
+footer {
+    background-color: grey;
+    color: white;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.items {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: xx-large;
+}
